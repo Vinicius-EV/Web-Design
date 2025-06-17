@@ -117,3 +117,27 @@ footer {
   height: 100%;
   border-radius: 8px;
 }
+
+@media (max-width: 600px) {
+  header, nav, main, footer, article {
+    padding: 10px;
+  }
+  nav a {
+    display: block;
+    margin: 12px 0;
+    font-size: 18px;
+  }
+  main {
+    padding: 10px;
+  }
+  article {
+    padding: 12px;
+  }
+  h1, h2 {
+    font-size: 1.3em;
+    word-break: break-word;
+  }
+  .video-container {
+    padding-bottom: 60%;
+  }
+}
